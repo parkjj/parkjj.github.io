@@ -35,12 +35,12 @@
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p3"><span class="s2"><a href="file:///">Jonathan Park</a></span><span class="s3"><span class="Apple-converted-space">Â </span></span></p>
-<p class="p3"><span class="s2"><a href="file:///">Jonathan Park</a></span><span class="s3"><span class="Apple-converted-space">Â </span></span></p>
+<p class="p3"><span class="s2"><a href="file:///">Jonathan Park</a></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><a href="file:///">Jonathan Park</a></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
 <ul class="ul1">
-  <li class="li3"><span class="s4"><a href="file:///#about"><span class="s2">Home</span></a></span><span class="s3"><span class="Apple-converted-space">Â </span></span></li>
-  <li class="li3"><span class="s4"><a href="file:///#featured"><span class="s2">Publications</span></a></span><span class="s3"><span class="Apple-converted-space">Â </span></span></li>
-  <li class="li3"><span class="s4"><a href="file:///#contact"><span class="s2">Contact</span></a></span><span class="s3"><span class="Apple-converted-space">Â </span></span></li>
+  <li class="li3"><span class="s4"><a href="file:///#about"><span class="s2">Home</span></a></span><span class="s3"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li3"><span class="s4"><a href="file:///#featured"><span class="s2">Publications</span></a></span><span class="s3"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li3"><span class="s4"><a href="file:///#contact"><span class="s2">Contact</span></a></span><span class="s3"><span class="Apple-converted-space"> </span></span></li>
 </ul>
 <ul class="ul1">
   <li class="li4"></li>
@@ -51,7 +51,7 @@
 <p class="p5"><span class="s1"></span></p>
 <h2 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Jonathan Park</b></span></h2>
 <h3 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>MD/PhD student</b></span></h3>
-<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9"><span class="s2"><a href="https://www.yale.edu/"><b>Yale University<span class="Apple-converted-space">Â </span></b><span class="s5"><b></b></span></a></span></h3>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9"><span class="s2"><a href="https://www.yale.edu/"><b>Yale University<span class="Apple-converted-space"> </span></b><span class="s5"><b></b></span></a></span></h3>
 <ul class="ul1">
   <li class="li4"></li>
   <li class="li4"></li>
@@ -62,7 +62,7 @@
 <h1 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Biography</b></span></h1>
 <p class="p8"><span class="s1">Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</span></p>
 <p class="p8"><span class="s1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</span></p>
-<p class="p8"><span class="s1">Download my <a href="file:///uploads/demo_resume.pdf"><span class="s6">resumÃ©</span></a>.</span></p>
+<p class="p8"><span class="s1">Download my <a href="file:///uploads/demo_resume.pdf"><span class="s6">resumé</span></a>.</span></p>
 <p class="p5"><span class="s1">Interests</span></p>
 <ul class="ul1">
   <li class="li5"><span class="s4"></span><span class="s1">Cancer immunology</span></li>
@@ -84,24 +84,23 @@ Yale University<br>
 </ul>
 <p class="p2"><span class="s1"></span><br></p>
 <h1 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Recent Publications</b></span></h1>
-<p class="p5"><span class="s1">Quickly discover relevant content by <a href="file:///Users/jonathan/Desktop/Professional%20Experience/github/website/parkjj.github.io-source/public/publication/"><span class="s6">filtering publications</span></a>.<span class="Apple-converted-space">Â </span></span></p>
+<p class="p5"><span class="s1">Quickly discover relevant content by <a href="file:///Users/jonathan/Desktop/Professional%20Experience/github/website/parkjj.github.io-source/public/publication/"><span class="s6">filtering publications</span></a>.<span class="Apple-converted-space"> </span></span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <h1 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Contact</b></span></h1>
-<p class="p5"><span class="s1">Name<span class="Apple-converted-space">Â </span></span></p>
-<p class="p5"><span class="s1">Email<span class="Apple-converted-space">Â </span></span></p>
-<p class="p5"><span class="s1">Message<span class="Apple-converted-space">Â </span></span></p>
-<p class="p5"><span class="s1">Do not fill this field unless you are a bot:<span class="Apple-converted-space">Â </span></span></p>
-<p class="p9"><span class="s7">Send</span><span class="s8"><span class="Apple-converted-space">Â </span></span></p>
+<p class="p5"><span class="s1">Name<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1">Email<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1">Message<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s1">Do not fill this field unless you are a bot:<span class="Apple-converted-space"> </span></span></p>
+<p class="p9"><span class="s7">Send</span><span class="s8"><span class="Apple-converted-space"> </span></span></p>
 <ul class="ul1">
-  <li class="li3"><span class="s4"><a href="mailto:jonathan.park@yale.edi"><span class="s2">jonathan.park@yale.edi</span></a></span><span class="s3"><span class="Apple-converted-space">Â </span></span></li>
-  <li class="li3"><span class="s4"><a href="tel:888%20888%2088%2088"><span class="s2">888 888 88 88</span></a></span><span class="s3"><span class="Apple-converted-space">Â </span></span></li>
-  <li class="li5"><span class="s4"></span><span class="s1">450 Serra Mall, Stanford, CA 94305<span class="Apple-converted-space">Â </span></span></li>
-  <li class="li5"><span class="s4"></span><span class="s1">Enter Building 1 and take the stairs to Office 200 on Floor 2<span class="Apple-converted-space">Â </span></span></li>
-  <li class="li3"><span class="s4"><a href="https://twitter.com/JonJPark"><span class="s2">DM Me</span></a></span><span class="s3"><span class="Apple-converted-space">Â </span></span></li>
+  <li class="li3"><span class="s4"><a href="mailto:jonathan.park@yale.edi"><span class="s2">jonathan.park@yale.edi</span></a></span><span class="s3"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li3"><span class="s4"><a href="tel:888%20888%2088%2088"><span class="s2">888 888 88 88</span></a></span><span class="s3"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li5"><span class="s4"></span><span class="s1">450 Serra Mall, Stanford, CA 94305<span class="Apple-converted-space"> </span></span></li>
+  <li class="li5"><span class="s4"></span><span class="s1">Enter Building 1 and take the stairs to Office 200 on Floor 2<span class="Apple-converted-space"> </span></span></li>
+  <li class="li3"><span class="s4"><a href="https://twitter.com/JonJPark"><span class="s2">DM Me</span></a></span><span class="s3"><span class="Apple-converted-space"> </span></span></li>
 </ul>
-<p class="p8"><span class="s1">Published with <a href="https://wowchemy.com/?utm_campaign=poweredby"><span class="s6">Wowchemy</span></a> â€” the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules"><span class="s6">open source</span></a> website builder that empowers creators.<span class="Apple-converted-space">Â </span></span></p>
-<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; line-height: 13.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Cite</b></span></h5>
-<p class="p9"><span class="s7">Ã—<span class="Apple-converted-space">Â </span></span></p>
+<p class="p8"><span class="s1">Published with <a href="https://wowchemy.com/?utm_campaign=poweredby"><span class="s6">Wowchemy</span></a> œôòô the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules"><span class="s6">open source</span></a> website build<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; line-height: 13.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Cite</b></span></h
+<p class="p9"><span class="s7">×<span class="Apple-converted-space"> </span></span></p>
 <p class="p11"><span class="s1"></span><br></p>
 <p class="p3"><span class="s2">Copy Download</span></p>
 <p class="p2"><span class="s1"></span><br></p>
