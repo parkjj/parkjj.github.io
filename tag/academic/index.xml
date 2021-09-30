@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic | Jonathan Park</title>
-    <link>https://github.com/parkjj/parkjj.github.io/tag/academic/</link>
-      <atom:link href="https://github.com/parkjj/parkjj.github.io/tag/academic/index.xml" rel="self" type="application/rss+xml" />
+    <link>parkjj.github.io/tag/academic.html</link>
+      <atom:link href="parkjj.github.io/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://github.com/parkjj/parkjj.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/parkjj.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
-      <link>https://github.com/parkjj/parkjj.github.io/tag/academic/</link>
+      <link>parkjj.github.io/tag/academic.html</link>
     </image>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://github.com/parkjj/parkjj.github.io/post/getting-started/</link>
+      <link>parkjj.github.io/post/getting-started.html</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://github.com/parkjj/parkjj.github.io/post/getting-started/</guid>
+      <guid>parkjj.github.io/post/getting-started.html</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
