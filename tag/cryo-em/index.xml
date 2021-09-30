@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;cryo-EM&#34; | Jonathan Park</title>
+    <link>https://parkjj.github.io/tag/cryo-em/</link>
+      <atom:link href="https://parkjj.github.io/tag/cryo-em/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;cryo-EM&#34;</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://parkjj.github.io/media/icon_hu8aa69288e2c6d38fce844ea74085f431_16190_512x512_fill_lanczos_center_3.png</url>
+      <title>&#34;cryo-EM&#34;</title>
+      <link>https://parkjj.github.io/tag/cryo-em/</link>
+    </image>
+    
+    <item>
+      <title>Nonstructural Protein 1 of SARS-CoV-2 Is a Potent Pathogenicity Factor Redirecting Host Protein Synthesis Machinery toward Viral RNA</title>
+      <link>https://parkjj.github.io/publication/yuan-nonstructural-2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://parkjj.github.io/publication/yuan-nonstructural-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

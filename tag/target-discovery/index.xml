@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;target discovery&#34; | Jonathan Park</title>
+    <link>https://parkjj.github.io/tag/target-discovery/</link>
+      <atom:link href="https://parkjj.github.io/tag/target-discovery/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;target discovery&#34;</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://parkjj.github.io/media/icon_hu8aa69288e2c6d38fce844ea74085f431_16190_512x512_fill_lanczos_center_3.png</url>
+      <title>&#34;target discovery&#34;</title>
+      <link>https://parkjj.github.io/tag/target-discovery/</link>
+    </image>
+    
+    <item>
+      <title>Systematic Immunotherapy Target Discovery Using Genome-Scale In Vivo CRISPR Screens in CD8 T Cells</title>
+      <link>https://parkjj.github.io/publication/dong-systematic-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://parkjj.github.io/publication/dong-systematic-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
