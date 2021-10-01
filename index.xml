@@ -14,9 +14,9 @@
     
     <item>
       <title>Example Talk</title>
-      <link>https://parkjj.github.io/talk/example-talk/</link>
+      <link>https://parkjj.github.io/unused/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://parkjj.github.io/talk/example-talk/</guid>
+      <guid>https://parkjj.github.io/unused/event/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -167,9 +167,9 @@
     
     <item>
       <title>Slides</title>
-      <link>https://parkjj.github.io/slides/example/</link>
+      <link>https://parkjj.github.io/unused/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://parkjj.github.io/slides/example/</guid>
+      <guid>https://parkjj.github.io/unused/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
