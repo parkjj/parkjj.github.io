@@ -5,12 +5,20 @@
     <link>https://parkjj.github.io/publication/</link>
       <atom:link href="https://parkjj.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://parkjj.github.io/media/icon_hu8aa69288e2c6d38fce844ea74085f431_16190_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://parkjj.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Metaviromic identification of discriminative genomic features in SARS-CoV-2 using machine learning</title>
+      <link>https://parkjj.github.io/publication/park-metaviromic-2021/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://parkjj.github.io/publication/park-metaviromic-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Nonstructural Protein 1 of SARS-CoV-2 Is a Potent Pathogenicity Factor Redirecting Host Protein Synthesis Machinery toward Viral RNA</title>
