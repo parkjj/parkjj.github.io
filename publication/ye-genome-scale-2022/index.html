@@ -1,0 +1,1464 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jonathan J. Park" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Chimeric antigen receptor (CAR)-T cell-based immunotherapy for cancer and immunological diseases has made great strides, but it still faces multiple hurdles. Finding the right molecular targets to engineer T cells toward a desired function has broad implications for the armamentarium of T cell-centered therapies. Here, we developed a dead-guide RNA (dgRNA)-based CRISPR activation screen in primary CD8&#43; T cells and identified gain-of-function (GOF) targets for CAR-T engineering. Targeted knockin or overexpression of a lead target, PRODH2, enhanced CAR-T-based killing and in vivo efficacy in multiple cancer models. Transcriptomics and metabolomics in CAR-T cells revealed that augmenting PRODH2 expression reshaped broad and distinct gene expression and metabolic programs. Mitochondrial, metabolic, and immunological analyses showed that PRODH2 engineering enhances the metabolic and immune functions of CAR-T cells against cancer. Together, these findings provide a system for identification of GOF immune boosters and demonstrate PRODH2 as a target to enhance CAR-T efficacy." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://parkjj.github.io/publication/ye-genome-scale-2022/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.481af39c39ffd87b2d14f39943e7c723.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu8aa69288e2c6d38fce844ea74085f431_16190_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu8aa69288e2c6d38fce844ea74085f431_16190_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://parkjj.github.io/publication/ye-genome-scale-2022/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@twitter.com/JonJPark" />
+    <meta property="twitter:creator" content="@twitter.com/JonJPark" />
+  
+  <meta property="og:site_name" content="Jonathan J. Park" />
+  <meta property="og:url" content="https://parkjj.github.io/publication/ye-genome-scale-2022/" />
+  <meta property="og:title" content="A genome-scale gain-of-function CRISPR screen in CD8 T cells identifies proline metabolism as a means to enhance CAR-T therapy | Jonathan J. Park" />
+  <meta property="og:description" content="Chimeric antigen receptor (CAR)-T cell-based immunotherapy for cancer and immunological diseases has made great strides, but it still faces multiple hurdles. Finding the right molecular targets to engineer T cells toward a desired function has broad implications for the armamentarium of T cell-centered therapies. Here, we developed a dead-guide RNA (dgRNA)-based CRISPR activation screen in primary CD8&#43; T cells and identified gain-of-function (GOF) targets for CAR-T engineering. Targeted knockin or overexpression of a lead target, PRODH2, enhanced CAR-T-based killing and in vivo efficacy in multiple cancer models. Transcriptomics and metabolomics in CAR-T cells revealed that augmenting PRODH2 expression reshaped broad and distinct gene expression and metabolic programs. Mitochondrial, metabolic, and immunological analyses showed that PRODH2 engineering enhances the metabolic and immune functions of CAR-T cells against cancer. Together, these findings provide a system for identification of GOF immune boosters and demonstrate PRODH2 as a target to enhance CAR-T efficacy." /><meta property="og:image" content="https://parkjj.github.io/media/icon_hu8aa69288e2c6d38fce844ea74085f431_16190_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://parkjj.github.io/media/icon_hu8aa69288e2c6d38fce844ea74085f431_16190_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-04-02T14:58:23&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-04-02T10:58:24-04:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://parkjj.github.io/publication/ye-genome-scale-2022/"
+  },
+  "headline": "A genome-scale gain-of-function CRISPR screen in CD8 T cells identifies proline metabolism as a means to enhance CAR-T therapy",
+  
+  "datePublished": "2022-04-02T14:58:23Z",
+  "dateModified": "2022-04-02T10:58:24-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Lupeng Ye"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jonathan J. Park",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://parkjj.github.io/media/icon_hu8aa69288e2c6d38fce844ea74085f431_16190_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Chimeric antigen receptor (CAR)-T cell-based immunotherapy for cancer and immunological diseases has made great strides, but it still faces multiple hurdles. Finding the right molecular targets to engineer T cells toward a desired function has broad implications for the armamentarium of T cell-centered therapies. Here, we developed a dead-guide RNA (dgRNA)-based CRISPR activation screen in primary CD8+ T cells and identified gain-of-function (GOF) targets for CAR-T engineering. Targeted knockin or overexpression of a lead target, PRODH2, enhanced CAR-T-based killing and in vivo efficacy in multiple cancer models. Transcriptomics and metabolomics in CAR-T cells revealed that augmenting PRODH2 expression reshaped broad and distinct gene expression and metabolic programs. Mitochondrial, metabolic, and immunological analyses showed that PRODH2 engineering enhances the metabolic and immune functions of CAR-T cells against cancer. Together, these findings provide a system for identification of GOF immune boosters and demonstrate PRODH2 as a target to enhance CAR-T efficacy."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>A genome-scale gain-of-function CRISPR screen in CD8 T cells identifies proline metabolism as a means to enhance CAR-T therapy | Jonathan J. Park</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="867b674857846324c26a2302256dc9b5" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Jonathan J. Park</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Jonathan J. Park</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards-and-honors"><span>Awards and Honors</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#press"><span>Press</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>A genome-scale gain-of-function CRISPR screen in CD8 T cells identifies proline metabolism as a means to enhance CAR-T therapy</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Lupeng Ye</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span class="author-highlighted">
+      Jonathan J. Park</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Lei Peng</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Quanjun Yang</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Ryan D. Chow</span>, <span >
+      Matthew B. Dong</span>, <span >
+      Stanley Z. Lam</span>, <span >
+      Jianjian Guo</span>, <span >
+      Erting Tang</span>, <span >
+      Yueqi Zhang</span>, <span >
+      Guangchuan Wang</span>, <span >
+      Xiaoyun Dai</span>, <span >
+      Yaying Du</span>, <span >
+      Hyunu R. Kim</span>, <span >
+      Hanbing Cao</span>, <span >
+      Youssef Errami</span>, <span >
+      Paul Clark</span>, <span >
+      Alexey Bersenev</span>, <span >
+      Ruth R. Montgomery</span>, <span >
+      Sidi Chen</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    March 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/ye-genome-scale-2022/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1016/j.cmet.2022.02.009" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://www.sciencedirect.com/science/article/pii/S1550413122000535" target="_blank" rel="noopener">
+    URL</a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Chimeric antigen receptor (CAR)-T cell-based immunotherapy for cancer and immunological diseases has made great strides, but it still faces multiple hurdles. Finding the right molecular targets to engineer T cells toward a desired function has broad implications for the armamentarium of T cell-centered therapies. Here, we developed a dead-guide RNA (dgRNA)-based CRISPR activation screen in primary CD8+ T cells and identified gain-of-function (GOF) targets for CAR-T engineering. Targeted knockin or overexpression of a lead target, PRODH2, enhanced CAR-T-based killing and in vivo efficacy in multiple cancer models. Transcriptomics and metabolomics in CAR-T cells revealed that augmenting PRODH2 expression reshaped broad and distinct gene expression and metabolic programs. Mitochondrial, metabolic, and immunological analyses showed that PRODH2 engineering enhances the metabolic and immune functions of CAR-T cells against cancer. Together, these findings provide a system for identification of GOF immune boosters and demonstrate PRODH2 as a target to enhance CAR-T efficacy.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Cell Metabolism</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/antitumor-efficacy/">antitumor efficacy</a>
+  
+  <a class="badge badge-light" href="/tag/car-t/">CAR-T</a>
+  
+  <a class="badge badge-light" href="/tag/dead-guide-rna/">dead-guide RNA</a>
+  
+  <a class="badge badge-light" href="/tag/metabolism/">metabolism</a>
+  
+  <a class="badge badge-light" href="/tag/mitochondria/">mitochondria</a>
+  
+  <a class="badge badge-light" href="/tag/prodh2/">PRODH2</a>
+  
+  <a class="badge badge-light" href="/tag/proline-metabolism/">proline metabolism</a>
+  
+  <a class="badge badge-light" href="/tag/t-cell-crispr-activation-screen/">T cell CRISPR activation screen</a>
+  
+  <a class="badge badge-light" href="/tag/t-cell-gof-screen/">T cell GOF screen</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://parkjj.github.io/publication/ye-genome-scale-2022/&amp;text=A%20genome-scale%20gain-of-function%20CRISPR%20screen%20in%20CD8%20T%c2%a0cells%20identifies%20proline%20metabolism%20as%20a%20means%20to%20enhance%20CAR-T%20therapy" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://parkjj.github.io/publication/ye-genome-scale-2022/&amp;t=A%20genome-scale%20gain-of-function%20CRISPR%20screen%20in%20CD8%20T%c2%a0cells%20identifies%20proline%20metabolism%20as%20a%20means%20to%20enhance%20CAR-T%20therapy" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=A%20genome-scale%20gain-of-function%20CRISPR%20screen%20in%20CD8%20T%c2%a0cells%20identifies%20proline%20metabolism%20as%20a%20means%20to%20enhance%20CAR-T%20therapy&amp;body=https://parkjj.github.io/publication/ye-genome-scale-2022/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://parkjj.github.io/publication/ye-genome-scale-2022/&amp;title=A%20genome-scale%20gain-of-function%20CRISPR%20screen%20in%20CD8%20T%c2%a0cells%20identifies%20proline%20metabolism%20as%20a%20means%20to%20enhance%20CAR-T%20therapy" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=A%20genome-scale%20gain-of-function%20CRISPR%20screen%20in%20CD8%20T%c2%a0cells%20identifies%20proline%20metabolism%20as%20a%20means%20to%20enhance%20CAR-T%20therapy%20https://parkjj.github.io/publication/ye-genome-scale-2022/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://parkjj.github.io/publication/ye-genome-scale-2022/&amp;title=A%20genome-scale%20gain-of-function%20CRISPR%20screen%20in%20CD8%20T%c2%a0cells%20identifies%20proline%20metabolism%20as%20a%20means%20to%20enhance%20CAR-T%20therapy" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://parkjj.github.io"><img class="avatar mr-3 avatar-circle" src="/authors/jonathan-j-park/avatar_hu1f497dbf2eae594e66cb6021ca435657_61238_270x270_fill_q75_lanczos_center.jpg" alt="Jonathan J. Park"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://parkjj.github.io">Jonathan J. Park</a></h5>
+      <h6 class="card-subtitle">MD/PhD student</h6>
+      <p class="card-text">My research interests include high throughput CRISPR screens, machine learning, CAR-T therapies.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jonathan.park@yale.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/JonJPark" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=rfC58OYAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/parkjj" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jonjpark" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.d68ecd57c0ec1f1f61d65fd568f1c3a0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
